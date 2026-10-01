@@ -1,0 +1,18 @@
+[project]
+name = "un-author"
+version = "0.1.0"
+description = "A pre-commit hook that strips AI co-author trailers from commit messages."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+un-author = "un_author:main"
+
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["un_author"]

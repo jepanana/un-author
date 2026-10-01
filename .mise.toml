@@ -1,0 +1,3 @@
+[tools]
+pre-commit = "latest"
+python = "latest"

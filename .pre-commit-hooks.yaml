@@ -1,0 +1,7 @@
+- id: un-author
+  name: Strip co-authors
+  entry: un-author
+  language: python
+  description: Removes AI (or all) Co-authored-by trailers from the commit message
+  always_run: true
+  stages: [commit-msg]
